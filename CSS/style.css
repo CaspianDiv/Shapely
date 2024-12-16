@@ -1,0 +1,307 @@
+:root{
+    --purple:#745CF9;
+}
+header{
+    height: 100vh;
+    background: url('../img/header.jpg')center/cover fixed;
+}
+
+#title{
+    text-align: center;
+    padding: 55% 0;
+    text-transform: capitalize;
+    color: #fff;
+}
+h1{
+    font: normal 2em "Helvetica Neue";
+    padding: 15px 0;
+}
+h2{
+    font: 400 1.5em "Helvetica Neue","Helvetica",Arial,sans-serif;
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+p{
+    font: 400 .7em "Raleway","Helvetica Neue",Arial,sans-serif;
+}
+
+.btns button{
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+}
+button{
+    padding: 10px 30px;
+    background: var(--purple);
+    transition: 250ms all;
+}
+button:hover{
+    background: #735cf9d7;
+}
+button p{
+    display: inline-block;
+    font: bold .8em "Raleway Neue","Helvetica Neue",Arial,sans-serif;
+}
+#btnlight{
+    background: none;
+    border: 2px solid #fff;
+    transition: 250ms all;
+}
+#btnlight:hover{
+    background: #fff;
+    color: #000;
+}
+.seofrnd p{
+    font: 400 .7em "Raleway","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #8c979e;;
+    line-height: 24px;
+}
+.seofrnd{padding: 15px 25px;}
+.seofrnd button{
+    padding: 10px 30px;
+    background: var(--purple);
+    transition: 250ms all;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font: bold .7em "Raleway Neue","Helvetica Neue",Arial,sans-serif;
+    transition: 250ms all;
+}
+.seofrnd button:hover{
+    background: #735cf9d7;
+}
+.mac img{width: 100%;}
+.port p{
+    font: 400 .7em "Raleway","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #8c979e;;
+    line-height: 24px;
+}
+.port{
+    padding: 15px 25px;
+}
+#portfolio{background: #f5f5f5;}
+#limitless{background: #f5f5f5;}
+#download{background-color: #f5f5f5;}
+.port button{
+    padding: 10px 30px;
+    background: var(--purple);
+    transition: 250ms all;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font: bold .7em "Raleway Neue","Helvetica Neue",Arial,sans-serif;
+    transition: 250ms all;
+}
+.port button:hover{
+    background: #735cf9d7;
+}
+.mac2 img{width: 100%;}
+.container-fluid{
+    background: url('/img/photo-main.jpg') center/cover fixed;
+    min-height: 50vh;
+    width: 100%;
+}
+.parallax-content{
+    text-align: center;
+    padding: 7% 0 0 0;
+    width: 70%;
+    margin: auto;
+}
+.parallax-content h1{
+    font: 300 2em "Helvetica Neue";
+    color: #fff;
+    text-transform: capitalize;
+}
+.parallax-content p{
+    font: 400 .7em "Raleway","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #fff;
+    line-height: 24px   ;
+}
+.parallax-content button{
+    padding: 20px 40px;
+    background: var(--purple);
+    transition: 250ms all;
+    outline: 0;
+    border: 0;  
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font: bold .7em "Raleway Neue","Helvetica Neue",Arial,sans-serif;
+    transition: 250ms all;
+}
+.parallax-content button:hover{
+    background: #735cf9b6;
+}
+#limitless{
+    padding: 20px;
+    text-align: center;
+}
+#limitless h3{
+    text-align: center;
+    text-transform: capitalize;
+    font: 400 1.5em sans-serif;
+}
+#limitless p{
+    font: 400 .7em "Raleway","Helvetica Neue","Helvetica",Arial,sans-serif;
+    line-height: 24px;
+}
+#limitless button{
+    padding: 10px 30px;
+    background: var(--purple);
+    transition: 250ms all;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font: bold .7em "Raleway Neue","Helvetica Neue",Arial,sans-serif;
+}
+#limitless button:hover{
+    background:  #735cf9b6;
+}
+img{
+    width: 100%;
+}
+
+#our-latest-projects{
+    text-align: center;
+    background: #1b1b1b;
+    color: #fff;
+    padding: 25px;
+}
+#our-latest-projects h3{
+    text-transform: capitalize;
+    font: 400 1.5em sans-serif;
+}
+h5{
+    display: none;
+}
+
+#slider{
+    background: url('../img/photo-main-2.jpg') center/cover fixed;
+    min-height: 50vh;
+    padding: 25px;
+}
+#slider h3{
+    font: 400 1.5em "Raleway","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+#slider p{
+    padding: 15px 0;
+}
+.w-10{
+    width: 10%;
+}
+#slider2{
+    padding: 25px;
+    min-height: 50vh;
+}
+#download{
+    text-align: center;
+    padding: 25px;
+}
+#download h4{
+    text-transform: capitalize;
+    font: 400 1.5em "Raleway","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+#download button{
+    border: none;
+    outline: none;
+    color: #fff;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    font: bold .7em "Raleway Neue","Helvetica Neue",Arial,sans-serif;
+}
+footer{
+    background: #0E1015;
+    padding: 35px;
+    min-height: 20vh;
+    color: #fff;
+}
+.container i{
+    padding: 10px;
+    cursor: pointer;
+}
+.container i:hover{
+    color: var(--purple);
+}
+#top{position: relative;}
+#top a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 25px;
+    background: var(--purple);
+}
+@media only screen and (min-width: 768px){
+    #title{
+        padding: 20% 0;
+    }
+
+    .container-portfolio{
+        display: flex;
+        align-items: center;
+    }
+    .port{
+        order: -1;
+        padding: 80px 70px;
+        width: 50%;
+    }
+    .container-seo{
+        display: flex;
+        align-items: center;
+    }
+    .seofrnd{   
+        padding: 80px 70px;
+        width: 50%;
+    }
+    .parallax-content h1{
+        font-size: 3.75em;
+        font-weight: 400;
+    }
+
+    main img{
+        display: inline-block;
+        width: 80%;
+        padding: 35px 0 0 0;
+    }
+    .mountain{
+        text-align: center;
+        background: #f2f2f2;
+    }
+    .projects-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .projects-container img{
+        width: 25%;
+        padding: 0;
+        transition: 250ms all;
+        cursor: pointer;
+    }
+    #our-latest-projects{
+        padding: 50px 0;
+    }
+    #our-latest-projects h3{
+        font: 400 2em sans-serif;
+    }
+    .projects-container img:hover{
+        opacity: .5;
+      
+    }
+    #download{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
